@@ -2,17 +2,17 @@
 ## Overview
 This project provides an ETL (Extract, Transform, Load) pipeline built using Python and Pandas to handle data from a CSV file and load it into a MySQL database. The ETL process is designed to automate the workflow of extracting data from a CSV file, transforming it according to specified rules, and loading the cleaned data into a MySQL database for analysis and reporting. By systematically extracting data from various sources, transforming it into a consistent format, and loading it into a centralized database, ETL processes ensure that businesses have a unified and reliable dataset. A consolidated data set enables better decision-making, detailed operational insights, and precise reporting, ultimately improving business performance and strategic planning.
 ## Features
-**Data Extraction**;
+  **Data Extraction**;
 - CSV File Support: The pipeline extracts data from CSV files, allowing for easy integration with data stored in this common format. 
 - Flexible File Handling: Handle CSV files with different structures by configuring the input parameters, including different delimiters (e.g., commas, semicolons) and encoding types (e.g., UTF-8, ISO-8859-1). 
-**Data Transformation**;
+  **Data Transformation**;
 - Automated Data Cleaning: Remove duplicates, handle missing values, and standardize data formats.
-**Data Loading**;
+  **Data Loading**;
 - Transaction Management: Uses transactions to ensure data integrity, allowing for rollback in case of errors during the loading phase
 - Batch Loading into MySQL: Efficiently load processed data into a MySQL database using Pandas.
-- **Performance and Optimization**;
+  **Performance and Optimization**;
 - Efficient Data Processing: Utilize Pandas for fast and memory-efficient data processing
-**Scheduling and Automation**;
+  **Scheduling and Automation**;
 - Command-Line Interface: Run the ETL process from the command line with customizable parameters.
 ## Installation
 - *install Python 3.12.1*
