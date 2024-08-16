@@ -1,4 +1,7 @@
-# ETL-DATAVISA-SQL
+# ETL-DATAVISA-SQL 
+PT/BR: Para acessar a versão descritiva do projeto em português (contém as informações do READ.ME), e o diagrama Entidade-Relacionamento ir para Memorial/MEMORIAL_DESCRITIVO_ALIMENTOS_SQL.pdf 
+EN => The memorial description (written in portuguese) and the entity-relationship diagram (ERD) can be found at Memorial/MEMORIAL_DESCRITIVO_ALIMENTOS_SQL.pdf 
+
 ## Overview
 This project provides an ETL (Extract, Transform, Load) pipeline built using Python and Pandas to handle data from a CSV file and load it into a MySQL database. The ETL process is designed to automate the workflow of extracting data from a CSV file, transforming it according to specified rules, and loading the cleaned data into a MySQL database for analysis and reporting. By systematically extracting data from various sources, transforming it into a consistent format, and loading it into a centralized database, ETL processes ensure that businesses have a unified and reliable dataset. A consolidated data set enables better decision-making, detailed operational insights, and precise reporting, ultimately improving business performance and strategic planning.
 ## Features
